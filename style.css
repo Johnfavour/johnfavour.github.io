@@ -1,7 +1,7 @@
 body{
     padding:0;
     margin: 0;
-    background-color: #000;
+    background-color: #0D0D0D;
     background-image: url('images/music-background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -40,8 +40,14 @@ button{
     font-size: 15px;  
 }
 .about{
-    /* text-align: center; */
+    transform: skewX(-15deg);
+    background-color: #0D0D0D;
     margin: 200px 0 0 50px;
+    border-radius: 10px;
+    width: 50%;
+}
+.feature{
+   padding-top: 100px;
 }
 h2{
     color: #fff;
